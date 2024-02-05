@@ -1,0 +1,256 @@
+.navBar ul {
+    display: inline-flex;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(132, 169, 212);
+
+}
+
+.navBar img {
+
+    margin-right: 400px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+.navBar li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+
+.navBar a:hover {
+    background-color: rgb(48, 75, 225);
+    color: whitesmoke;
+
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+
+
+}
+
+.photo img {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+    position: relative;
+    float: right;
+    margin: 200px 80px 0px 0px;
+    width: 300px;
+}
+
+.Self {
+
+    margin: 180px 350px 0px 150px;
+
+}
+
+.Self h1 {
+
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Self p {
+
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+}
+
+.butoon-1 .B-1 {
+    margin: 20px 20px 20px 230px;
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+
+}
+
+
+.butoon-1 .B-2 {
+    margin: 10px 20px 25px 20px;
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 170px;
+    height: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+
+}
+
+.butoon-1 :hover {
+    background-color: rgba(13, 181, 13, 0.834);
+    color: black;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.98), 0px 6px 20px 0px rgba(0, 0, 0, 0.93);
+
+}
+
+.logo .logo1 {
+    margin: 25px 15px 10px 230px;
+    width: 50px;
+}
+
+.logo .logo2 {
+    margin: 25px 15px 10px 0px;
+    width: 50px;
+}
+
+.photo-2 img {
+
+    position: absolute;
+    float: center;
+    margin: 150px 100px 0px 0px;
+    width: 700px;
+}
+
+.Do {
+
+    margin: 200px 0px 0px 770px;
+}
+
+.Do h1 {
+
+    font-size: 30px;
+}
+
+.Do h4 {
+    font-size: 17px;
+}
+
+.Do img {
+    margin: 0px 0px 0px 0px;
+}
+
+label {
+    font-size: 25px;
+    margin: 200px 0px 0px 770px;
+}
+
+.OpenSource h1 {
+    margin: 170px 40px 60px 30px;
+    font-size: 50px;
+}
+
+.row-1,
+.row-2 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.row-1 .box1 {
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke(79, 79, 79);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+    margin: 0px 5px 17px 55px;
+    border: 1px solid rgb(128, 128, 128, 0.493);
+    padding: 10px;
+
+}
+
+.row-1 .box2 {
+    padding: 10px;
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(36, 96, 136);
+    margin: 0px 55px 10px 10px;
+    border: 1px solid rgb(128, 128, 128, 0.493);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+
+
+}
+
+.row-2 .box3 {
+    padding: 10px;
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(6, 96, 136);
+    margin: 0px 5px 10px 55px;
+    border: 1px solid rgb(128, 128, 128, 0.493);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+    padding: 10px;
+
+
+}
+
+.row-2 .box4 {
+    display: inline;
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke(79, 79, 79);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+    justify-content: center;
+    padding: 10px;
+    margin: 0px 55px 10px 10px;
+    border: 1px solid rgb(128, 128, 128, 0.493);
+}
+
+.B-3 {
+    margin: 10px 20px 25px 580px;
+    background-color: rgb(24, 125, 175);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 170px;
+    height: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.33);
+}
+
+.bt :hover {
+    background-color: rgba(27, 163, 232, 0.834);
+    color: black;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.98), 0px 6px 20px 0px rgba(0, 0, 0, 0.93);
+
+}
+
+.footer {
+
+    margin: 100px 00px 0px 30px;
+
+}
+
+.footer h1 {
+    font: size 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer h4 {
+    opacity: .5;
+
+}
+
+.footer h2,
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-2 {
+    margin: 30px;
+}
+
+.logo-2 .lg {
+    margin: 0px 2px 0px 9px;
+    width: 35px;
+}
